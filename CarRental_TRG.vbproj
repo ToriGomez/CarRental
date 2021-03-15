@@ -96,12 +96,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationEvents.vb" />
-    <Compile Include="RentalForm.vb">
+    <Compile Include="ApplicationEvents_TRG.vb" />
+    <Compile Include="RentalForm_TRG.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RentalForm.Designer.vb">
-      <DependentUpon>RentalForm.vb</DependentUpon>
+    <Compile Include="RentalForm_TRG.Designer.vb">
+      <DependentUpon>RentalForm_TRG.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -127,8 +127,8 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="RentalForm.resx">
-      <DependentUpon>RentalForm.vb</DependentUpon>
+    <EmbeddedResource Include="RentalForm_TRG.resx">
+      <DependentUpon>RentalForm_TRG.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

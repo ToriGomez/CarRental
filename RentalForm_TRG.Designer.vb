@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class RentalForm
+Partial Class RentalForm_TRG
     Inherits System.Windows.Forms.Form
 
     'Form Overrides Dispose To Clean Up The Component List.
